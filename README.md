@@ -24,10 +24,9 @@ This backend system provides the core logic and endpoints for a learning managem
 
 ## 🛠️ Tech Stack
 
-- **Backend**: Java 17, Spring Boot
+- **Backend**: Java, Spring Boot
 - **Database**: MySQL
 - **Authentication**: JWT
-- **Testing**: JUnit, Mockito
 - **API Documentation**: Swagger
 - **ORM**: Spring Data JPA (Hibernate)
 - **Build Tool**: Maven
@@ -38,7 +37,7 @@ This backend system provides the core logic and endpoints for a learning managem
 
 ### ✅ Prerequisites
 
-- Java 17+
+- Java 21
 - Maven
 - MySQL
 
@@ -47,7 +46,7 @@ This backend system provides the core logic and endpoints for a learning managem
 ### 📥 Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/online-learning-platform.git
+git clone https://github.com/Abhijit-2003/lms.git
 cd online-learning-platform
 ```
 
@@ -107,21 +106,6 @@ http://localhost:8080/swagger-ui/
 
 ---
 
-## 🧪 Running Tests
-
-To run all unit and controller tests:
-
-```bash
-mvn test
-```
-
-Test coverage includes:
-- Service layer
-- Controller layer
-- Authentication and validation logic
-
----
-
 ## 🔮 Future Enhancements
 
 - 💳 Payment gateway for premium content
@@ -130,17 +114,4 @@ Test coverage includes:
 - 📥 Upload video lectures and files
 - 🔔 Email notifications for activities
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork the repository and open a pull request:
-
-1. Fork this repo
-2. Create your feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add my feature"`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Open a pull request
-
----
 
